@@ -13,7 +13,7 @@ html {
 div#carousel img {
     display: flex;
     align-items: center;
-    margin: 10px 27vh;
+    margin: 10px 10vh;
      max-height: 628px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -27,7 +27,7 @@ width: 100%;
 
 
 button#anterior, button#proximo{
-    position: absolute;
+    position: fixed;
     top: 50%;
     background: rgba(19, 81, 216, 0.8);
     color: #ffffff;
